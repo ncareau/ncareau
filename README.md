@@ -1,7 +1,7 @@
 Nicolas M. Careau
 =================
 
-Hi! I'm Nicolas aka NMC. I've worked with video games and computer most of my life. I love legos, electronics and i'm a father. 
+Hi! I'm Nicolas aka NMC. I've worked with video games and computer most of my life. I love legos, electronics and i'm a father of two little monsters. 
 
 Let's Connect
 -------------
