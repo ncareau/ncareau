@@ -34,6 +34,18 @@
                     "type": "shell"
                 },
                 {
+                    "background": "#F9CB40",
+                    "foreground": "#011627",
+                    "leading_diamond": "\ue0b2",
+                    "properties": {
+                        "style": "full"
+                    },
+                    "style": "diamond",
+                    "template": " \ue5ff {{ .Path }} ",
+                    "trailing_diamond": "<transparent,background>\ue0b2</>",
+                    "type": "path"
+                },
+                {
                     "background": "#17D7A0",
                     "foreground": "#011627",
                     "leading_diamond": "\ue0b2",
@@ -48,14 +60,6 @@
                     "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
                     "trailing_diamond": "<transparent,#17D7A0>\ue0b2</>",
                     "type": "git"
-                },
-                {
-                    "properties": {
-                        "style": "full"
-                    },
-                    "style": "powerline",
-                    "template": " \ue5ff {{ .Path }} ",
-                    "type": "path"
                 },
                 {
                     "background": "#575656",
@@ -81,7 +85,7 @@
                   },
                   "style": "diamond",
                   "template": "<transparent,background>\ue0b0</> \ue23a ",
-                  "trailing_diamond": "\ue0b4",
+                  "trailing_diamond": "\ue0b0",
                   "type": "exit"
                 }
             ],
