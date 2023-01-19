@@ -17,7 +17,7 @@
                     "properties": {
                         "macos": "\uf179 ",
                         "ubuntu": "\uf31b ",
-                        "windows": "\uf871 "
+                        "windows": "\ue62a "
                     },
                     "style": "diamond",
                     "template": " {{ if .WSL }}WSL {{ end }}{{.Icon}}",
