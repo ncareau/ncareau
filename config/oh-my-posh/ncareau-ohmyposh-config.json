@@ -84,7 +84,7 @@
                     "always_enabled": true
                   },
                   "style": "diamond",
-                  "template": "<transparent,background>\ue0b0</> \udb82\udfd9 ",
+                  "template": "<transparent,background>\ue0b0</> \udb82\udfd9  ",
                   "trailing_diamond": "\ue0b0",
                   "type": "exit"
                 }
