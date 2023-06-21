@@ -71,7 +71,7 @@
                     },
                     "style": "diamond",
                     "template": " {{ .FormattedMs }} ",
-                    "trailing_diamond": "\ue0b0",
+                    "trailing_diamond": "<transparent,background>\ue0b0</>",
                     "type": "executiontime"
                 },
                 {
