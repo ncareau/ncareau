@@ -95,7 +95,7 @@
                 {
                     "background": "#516BEB",
                     "foreground": "#ffffff",
-                    "leading_diamond": "\ue0b2",
+                    "leading_diamond": "\uf85a",
                     "style": "diamond",
                     "template": "\uf4bc CPU: {{ round .PhysicalPercentUsed .Precision }}% | ",
                     "type": "sysinfo"
@@ -113,7 +113,7 @@
                         "time_format": "15:04"
                     },
                     "style": "plain",
-                    "template": " \u1F552 {{ .CurrentDate | date .Format }}",
+                    "template": " \uf43a {{ .CurrentDate | date .Format }}",
                     "type": "time"
                 }
             ],
