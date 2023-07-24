@@ -42,7 +42,7 @@
                     },
                     "style": "diamond",
                     "template": " \ue5ff {{ path .Path .Location }} ",
-                    "trailing_diamond": "<transparent,background>\ue0b2</>",
+                    "trailing_diamond": "<background,transparent>\ue0b0</>",
                     "type": "path"
                 },
                 {
@@ -58,19 +58,18 @@
                     },
                     "style": "diamond",
                     "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
-                    "trailing_diamond": "<transparent,#17D7A0>\ue0b2</>",
+                    "trailing_diamond": "<background,transparent>\ue0b0</>",
                     "type": "git"
                 },
                 {
                     "background": "#575656",
                     "foreground": "#d6deeb",
-                    "leading_diamond": "\ue0b2",
                     "properties": {
                         "style": "roundrock",
                         "threshold": 0
                     },
                     "style": "diamond",
-                    "template": " {{ .FormattedMs }} ",
+                    "template": "<transparent,background>\ue0b0</> {{ .FormattedMs }} ",
                     "trailing_diamond": "<background,transparent>\ue0b0</>",
                     "type": "executiontime"
                 },
@@ -99,7 +98,7 @@
                     "foreground": "#ffffff",
                     "leading_diamond": "\ue0b2",
                     "style": "diamond",
-                    "template": "\uf85a CPU: {{ round .PhysicalPercentUsed .Precision }}% | ",
+                    "template": "\uf4bc CPU: {{ round .PhysicalPercentUsed .Precision }}% | ",
                     "type": "sysinfo"
                 },
                 {
@@ -115,7 +114,7 @@
                         "time_format": "15:04"
                     },
                     "style": "plain",
-                    "template": " \u2665 {{ .CurrentDate | date .Format }}",
+                    "template": " \u1F552 {{ .CurrentDate | date .Format }}",
                     "type": "time"
                 }
             ],
