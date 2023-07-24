@@ -95,9 +95,9 @@
                 {
                     "background": "#516BEB",
                     "foreground": "#ffffff",
-                    "leading_diamond": "\uf85a",
+                    "leading_diamond": "\ue0b2",
                     "style": "diamond",
-                    "template": "\ue0b2 CPU: {{ round .PhysicalPercentUsed .Precision }}% | ",
+                    "template": "\uf85a CPU: {{ round .PhysicalPercentUsed .Precision }}% | ",
                     "type": "sysinfo"
                 },
                 {
