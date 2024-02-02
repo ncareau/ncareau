@@ -29,7 +29,7 @@
                     "foreground": "#011627",
                     "leading_diamond": "\ue0b2",
                     "style": "diamond",
-                    "template": "\uf489 {{ .Name }}{{ if .Root}} \udb82\udfc5{{ end }}",
+                    "template": "\uf489 {{ .Name }}{{ if .Root}} \udb82\udfc5 {{ end }}",
                     "trailing_diamond": "<transparent,#FEF5ED>\ue0b2</>",
                     "type": "shell"
                 },
