@@ -102,9 +102,6 @@
                     "type": "sysinfo"
                 },
                 {
-                    "properties": {
-                        "time_format": "15:04"
-                    },
                     "style": "plain",
                     "template": " \uf43a {{ .CurrentDate | date .Format }}",
                     "type": "time"
